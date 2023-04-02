@@ -1,0 +1,310 @@
+.str1b{
+    background-color: #03CFD6;
+    width: 3px;
+    margin-top: 29px;
+    height: 225px;
+}
+.str1a{
+    background-color: #03CFD6;
+    width: 3px;
+    margin-top: 36px;
+    height: 210px;
+}
+.str1c{
+    background-color: #03CFD6;
+    width: 3px;
+    margin-top: 48px;
+    height: 190px;
+}
+.str1{
+    background-color: #03CFD6;
+    width: 3px;
+    margin-top: 20px;
+    height: 240px;
+}
+.str2{
+    background-color: #03CFD6;
+    margin-top: 15px;
+    width: 5px;
+    height: 250px
+}
+.str3{
+    background-color: #03CFD6;
+    width: 6px;
+    margin-top: 9px;
+    height: 260px;
+}
+.str4{
+    background-color: #03CFD6;
+    width: 5px;
+    margin-top: 5px;
+    height: 270px;
+}
+.str5{
+    background-color: #03CFD6;
+    width: 5px;
+    height: 280px;
+}
+.str6{
+    background-color: #03CFD6;
+    margin-top: -5px;
+    width: 4px;
+    height: 290px;
+}
+.holder1{
+    display: flex;
+    gap: 6px;
+   justify-content : center;
+   margin-top: 5rem;
+   animation: bouncing 2s ease 0s 1 normal forwards;
+}
+@keyframes bouncing {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+.slide .str1s{
+    background-color: #03CFD6;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str2s{
+    background-color: #03CFD6;
+    margin-top:10px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str3s{
+    background-color: #03CFD6;
+    margin-top: 20px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str4s{
+    background-color: #03CFD6;
+    margin-top: 30px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str5s{
+    background-color: #03CFD6;
+    margin-top: 40px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str6s{
+    background-color: #03CFD6;
+    margin-top: 50px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str7s{
+    background-color: #03CFD6;
+    margin-top: 60px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str8s{
+    background-color: #03CFD6;
+    margin-top: 70px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str9s{
+    background-color: #03CFD6;
+    margin-top: 80px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str10s{
+    background-color: #03CFD6;
+    margin-top: 90px;
+    width: 3.5px;
+    height: 180px
+}
+.slide .str11s{
+    background-color: #03CFD6;
+    margin-top: 100px;
+    width: 3.5px;
+    height: 180px
+}
+.slide{
+    /* border: 2px solid  black; */
+  height: 280px;
+  margin-top: -1px;
+  display: flex;
+  gap: 6px;
+}
+.name{
+    margin-top: 2rem;
+    display: flex;
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    justify-content: center;
+    animation: bouncing 2s ease 0s 1 normal forwards;
+}
+@keyframes bouncing {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none   ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.button-33 {
+    background-color: #131E47;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    background-color:  #131E47;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-33:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  
+
+  .button-34 {
+    background-color: #03CFD6   ;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    background-color:  #03CFD6;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-34:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+
+button a{
+    color: white;
+}
+
+.BTN{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 3rem;
+    gap: 20px;
+  }
